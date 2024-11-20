@@ -62,33 +62,6 @@ Step 2: Run the log parsing script (log_parser.py) to parse the log data.
 Step 3: Generate visualizations by running the log visualization script (log_visualization.py).
 
 
-File Structure
-
-/my_project
-    ├── assessment.log 
-    ├── log_parser.py             
-    ├── log_visualization.py       
-    ├── parsed_log_output.csv      
-    ├── combined_visualizations.png 
-    ├──README.md                  
 
 
-
-
-Example Log File
-
-
-An example log file (assessment.log) is expected to contain entries in different formats, such as:
-
-Basic Log Format:
-
-2024-11-01T12:30:00.123 user=John ip=192.168.1.1 action=login
-
-JSON Log Format:
-
-{"timestamp": "2024-11-01T12:30:00.123", "user": "John", "ip": "192.168.1.1", "action": "login"}
-
-Base64 Encoded Log Format:
-
-BASE64:eyJ0aW1lc3RhbXAiOiAiMjAyNC0xMS0wMVQxMjowMzowMy4xMjM5MCIsICJ1c2VyIjogIkpvaG4iLCAiaXAiOiAiMTkyLjE2OC4xLjEiLCAiYWN0aW9uIjogImxvZ2luIn0=
 
