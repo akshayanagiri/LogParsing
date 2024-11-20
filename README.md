@@ -78,7 +78,7 @@ File Structure
 Example Log File
 
 
-An example log file (your_log_file.log) is expected to contain entries in different formats, such as:
+An example log file (assessment.log) is expected to contain entries in different formats, such as:
 
 Basic Log Format:
 
